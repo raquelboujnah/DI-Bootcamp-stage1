@@ -1,0 +1,49 @@
+/*navbar*/
+.navbar {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  /*image caption*/
+  .top-left {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    color: white;
+    font-size: 500%;
+    font-family: "Great Vibes", cursive;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    color: white;
+    font-size: 250%;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /*oppening modification*/
+  ol {
+    list-style-type: square;
+  }
+  
+  /*footer modification*/
+  footer li{
+    display: inline-block
+  }
+  
+  #right{
+    text-align: right;
+    margin: 20px 10px
+  }
+  
+  /*the end*/
+  
+  
+  
+  
+  
+  
+  
