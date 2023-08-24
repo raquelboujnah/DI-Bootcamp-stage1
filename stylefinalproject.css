@@ -3,13 +3,14 @@
     background-color: black;
     position: fixed;
     z-index: 1;
+    
   }
   
   /*image caption*/
   .top-left {
     position: absolute;
     top: 90px;
-    left: 60px;
+    left: 40px;
     color: white;
     font-size: 500%;
     font-family: "Great Vibes", cursive;
@@ -18,27 +19,100 @@
   .bottom-left {
     position: absolute;
     top: 180px;
-    left: 180px;
+    left: 110px;
     color: white;
     font-size: 250%;
     font-family: "Montserrat", sans-serif;
   }
   
-  /*oppening modification*/
+ @media (max-width:620px) {
+  .top-left{
+    font-size: 400%;
+  }
+  .bottom-left{
+    font-size: 170%;
+  }
+ }
+
+  
+  /*oppening style*/
   ol {
     list-style-type: square;
   }
-  
-  /*footer modification*/
-  footer li{
-    display: inline-block
+
+ /*footer style*/
+
+ input{
+  color: white;
+ }
+
+  #button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
   }
+
+  /* #footer-element{
+    
+  } */
   
-  #right{
-    text-align: right;
-    margin: 20px 10px
+ 
+  footer h5{
+    color: white;
+    margin: 5px 25px;
   }
-  
+
+  .fa {
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook{
+    background-color: #283593;
+  }
+
+  .fa-twitter{
+    background-color: #2196f3;
+  }
+
+  .fa-instagram{
+    background-color: #f50057;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+
+  }
+
+  #contact{
+    color: white;
+  }
+
+  #center-title{
+    text-align: center;
+  }
+
+  #copy{
+    color: white;
+    margin: 3px 20px;
+    padding-left: 90px;
+  }
+
+  #bottom-right{
+    margin: 20px 10px;
+  }
   /*the end*/
   
   
